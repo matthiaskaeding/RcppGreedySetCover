@@ -14,4 +14,6 @@ Imports:
 LinkingTo: 
     BH,
     Rcpp (>= 0.12.14)
+URL: http://github.com/matthiaskaeding/RcppGreedySetCover
+BugReports: http://github.com/matthiaskaeding/RcppGreedySetCover/issues
 RoxygenNote: 6.0.1

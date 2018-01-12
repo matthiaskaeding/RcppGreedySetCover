@@ -8,3 +8,4 @@ src/*.dll
 .here
 RcppGreedySetCover_0.1.0.tar.gz
 RcppGreedySetCover.Rproj
+RcppGreedySetCover.Rcheck

@@ -3,11 +3,11 @@
 #' Fast greedy set cover algorithm.
 
 #' @param X Two-column data.frame in long format: Column 1 identifies the sets, column 2 the elements.
-#' @param data.table If TRUE returns a \code{data.table} with keys given by sets and elements. 
+#' @param data.table If \code{TRUE} returns a \code{data.table} with keys given by sets and elements. 
 #' If FALSE returns a \code{data.frame}, sorted by sets and elements. 
 #' @keywords greedy set cover
-#' @return If \code{data.table==TRUE} a \code{data.table}, keyed by sets and elements. 
-#' If \code{data.table==FALSE} a data.frame, sorted by sets and elements. 
+#' @return If \code{data.table == TRUE} a \code{data.table}, keyed by sets and elements. 
+#' Else a \code{data.frame}, sorted by sets and elements. 
 #' Column names are derived from input.
 #' @examples
 #' # Create some data.
