@@ -5,3 +5,4 @@
 ^\.Rhistory$
 ^RcppGreedySetCover\.tar\.gz$
 ^\.gitignore$
+^\.travis\.yml$
