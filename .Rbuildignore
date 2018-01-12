@@ -1,0 +1,5 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^\.here$        
+^RcppGreedySetCover\.Rcheck$
+^\.Rhistory$
