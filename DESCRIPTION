@@ -2,7 +2,7 @@ Package: RcppGreedySetCover
 Title: Greedy Set Cover
 Version: 0.1.0
 Authors@R: person("Matthias", "Kaeding", role = c("aut", "cre"),email="matthiaskaeding@posteo.de")
-Description: A fast implementation of the greedy algorithm for the set cover problem using Rcpp.
+Description: A fast implementation of the greedy algorithm for the set cover problem using 'Rcpp'.
 Depends: R (>= 3.2.5)
 License: MIT + file LICENSE
 Encoding: UTF-8

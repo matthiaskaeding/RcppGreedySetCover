@@ -30,10 +30,14 @@ X <- data.table::rbindlist(
   ),
   idcol="set"
 )
+# Elements are integers 1,2,...,1000.
 
 # Run set cover
 res <- greedySetCover(X,FALSE)
 head(res)
+
+# Check if all elements are covered.
+identical(sort(unique(res$element)),sort(unique(X$element)))
 }
 \keyword{cover}
 \keyword{greedy}

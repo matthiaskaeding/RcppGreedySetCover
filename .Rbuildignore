@@ -6,3 +6,9 @@
 ^RcppGreedySetCover\.tar\.gz$
 ^\.gitignore$
 ^\.travis\.yml$
+^cran-comments.md$
+^README\.Rmd$
+^README\.md$
+^README-.*\.png$
+^NEWS\.Rmd$
+^NEWS\.md$
