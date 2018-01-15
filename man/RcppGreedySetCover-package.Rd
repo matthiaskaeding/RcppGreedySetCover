@@ -13,7 +13,7 @@ a collection of subsets of \emph{U}, find the smallest subcollection
 \emph{A} of \emph{F} that covers \emph{U}, i.e. the union of the sets in 
 \emph{A} is \emph{U}.
  
-The optimal solution is available via linear programming, however for larger problem sizes a fast 
+The optimal solution is available via linear programming, however for large problem sizes a fast 
 approximation is necessary. 
 Such an approximation is given by the greedy algorithm. In pseudocode, 
 the algorithm iterates the following steps until all elements are covered:

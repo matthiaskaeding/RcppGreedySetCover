@@ -1,6 +1,6 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
-^\.here$        
+^.*\.here$
 ^RcppGreedySetCover\.Rcheck$
 ^\.Rhistory$
 ^RcppGreedySetCover\.tar\.gz$
