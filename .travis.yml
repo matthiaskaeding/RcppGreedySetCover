@@ -4,12 +4,24 @@ r:
   - oldrel
   - release
   - devel
+  
 sudo: false
+
 cache: packages
+
 r_check_args: '--use-valgrind'
+
 addons:
   apt:
     packages:
       - valgrind
+      
 env:
   - VALGRIND_OPTS='--leak-check=full --track-origins=yes'
+  
+dist: trusty
+
+notifications:
+  email:
+    on_success: change
+    on_failure: change
