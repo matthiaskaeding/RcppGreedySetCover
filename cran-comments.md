@@ -2,9 +2,9 @@
 * local Windows 7 install, R 3.4.3
 * local Windows 10 install, R 3.4.3
 * win-builder (devel)
-* ubuntu 12.04 (on travis-ci), R devel
-* ubuntu 12.04 (on travis-ci), R 3.3.3
-* ubuntu 12.04 (on travis-ci), R 3.4.2
+* ubuntu 14.04 (on travis-ci), R devel
+* ubuntu 14.04 (on travis-ci), R 3.3.3
+* ubuntu 14.04 (on travis-ci), R 3.4.2
 
 ## R CMD check results
 There were no ERRORs or WARNINGs. 
