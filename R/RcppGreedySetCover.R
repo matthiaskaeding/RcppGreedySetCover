@@ -2,7 +2,7 @@
 #'
 #' This package offers an implementation of the greedy algorithm for the set cover problem using Rcpp.
 #' 
-#' @references Vazirani, Vijay V. (2001), Approximation Algorithms, Springer-Verlag
+#' @references Vazirani, Vijay V. (2001), Approximation Algorithms, Springer
 #' 
 #' @section Set Cover Problem: 
 #' We are given a universe of elements \emph{U} and \emph{F}, 

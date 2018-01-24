@@ -31,5 +31,5 @@ For a nice introduction to the set cover problem and the greedy algorithm see Va
 }
 
 \references{
-Vazirani, Vijay V. (2001), Approximation Algorithms, Springer-Verlag
+Vazirani, Vijay V. (2001), Approximation Algorithms, Springer
 }
