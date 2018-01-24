@@ -3,7 +3,7 @@
 ^.*\.here$
 ^RcppGreedySetCover\.Rcheck$
 ^\.Rhistory$
-^RcppGreedySetCover\.tar\.gz$
+^\.tar\.gz$
 ^\.gitignore$
 ^\.travis\.yml$
 ^cran-comments.md$

@@ -9,7 +9,6 @@ sudo: false
 
 cache: packages
 
-r_check_args: '--use-valgrind'
 
 addons:
   apt:
@@ -17,7 +16,10 @@ addons:
       - valgrind
       
 env:
-  - VALGRIND_OPTS='--leak-check=full --track-origins=yes'
+  global:
+    - VALGRIND_OPTS='--leak-check=full --track-origins=yes'
+    - R_CHECK_ARGS: '--use-valgrind --as-cran'
+
   
 dist: trusty
 
@@ -25,3 +27,5 @@ notifications:
   email:
     on_success: change
     on_failure: change
+
+warnings_are_errors: true
