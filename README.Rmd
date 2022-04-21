@@ -18,12 +18,18 @@ A fast implementation of the greedy algorithm for the set cover problem using 'R
 
 ## Installation
 
-You can install RcppGreedySetCover from github with:
+Newest version from github: 
 
 ```{r gh-installation, eval = FALSE}
-# install.packages("devtools")
 devtools::install_github("matthiaskaeding/RcppGreedySetCover")
 ```
+
+CRAN:
+
+```{r, eval = FALSE}
+install.packages("RcppGreedySetCover")
+```
+
 
 ## Example
 
@@ -35,7 +41,7 @@ set.seed(333)
 X <- data.table::rbindlist(
  lapply(
    seq_len(1e4L),
-   function(x) list(element=sample.int(n=1e3L,size=sample.int(50L,1L)))
+   function(x) list(element = sample.int(n = 1e3L, size = sample.int(50L, 1L)))
  ),
  idcol="set"
 )
@@ -44,12 +50,11 @@ X <- data.table::rbindlist(
 head(X) 
 
 # Run set cover
-res <- RcppGreedySetCover::greedySetCover(X,FALSE)
+res <- RcppGreedySetCover::greedySetCover(X)
 
 # Result is in long format.
 head(res) 
 
-# Check if all elements are covered.
-identical(sort(unique(res$element)),sort(unique(X$element)))
-
+# Check if all elements are covered:
+setequal(res$element, X$element)
 ```
