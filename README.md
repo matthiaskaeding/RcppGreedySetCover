@@ -1,10 +1,14 @@
+# RcppGreedySetCover: fast solution the set cover problem
 
-<!-- README.md is generated from README.Rmd. Please edit that file -->
+> ## 📢 Move
+>
+> As of June 2025, the `RcppGreedySetCover` package has been moved [to its new location in our monorepo](https://github.com/matthias-kaeding/set_cover/tree/main/rcpp_greedy_set_cover).
+>
+> This old repository will now be archived and made read-only. Please direct all new issues and pull requests to the new location.
 
-# RcppGreedySetCover
 
-A fast implementation of the greedy algorithm for the set cover problem
-using ‘Rcpp’.
+
+
 
 ## Installation
 
